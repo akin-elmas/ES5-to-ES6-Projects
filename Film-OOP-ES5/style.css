@@ -1,0 +1,13 @@
+body {
+    background-color:black;
+    height:100%;
+}
+
+.container {
+    margin-top:10%;
+    color:black;
+    
+}
+h1{
+    font-size:30px;
+}
