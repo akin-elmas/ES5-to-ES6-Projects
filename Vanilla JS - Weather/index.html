@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center my-4 ">Weather</h1>
+        <form class="change-location my-4 text-center text-muted">
+            <input type="text" placeholder="Location.." name="city" class="form-control p-3"/>
+        </form>
+        <div class="card shadow-lg rounded d-none">
+            <img src="https://via.placeholder.com/400x300" class="time card-img-top">
+            <div class="icon bg-light mx-auto text-center">
+                <img src="" alt="">
+            </div>
+            <div class="text-muted text-uppercase text-center detay">
+                    <h5 class="my-3">City Name</h5>
+                    <div class="my-3">weather forecast</div>
+                    <div class="display-4 my-4">
+                        <span>temperature</span>
+                        <span>&deg;C</span>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/forecast.js"></script>
+    <script src="script/app.js"></script>
+</body>
+</html>
